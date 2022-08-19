@@ -1,4 +1,8 @@
 ---
 - name: Print 'hello world'
   debug:
-    msg: hello world
+    msg: "hello {{ who }}"
+
+- name: Print ansible version
+  debug:
+    msg: "{{ ansible_version }}"
