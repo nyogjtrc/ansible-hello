@@ -1,0 +1,7 @@
+galaxy_info:
+  author: nyogjtrc
+  description: this is a practice for writing ansible role
+
+  license: MIT
+
+  min_ansible_version: 2.1
